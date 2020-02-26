@@ -4,7 +4,7 @@ const Web3 = require('web3');
 const EthereumTx = require("ethereumjs-tx");
 const Biconomy = require("@biconomy/mexa");
 
-// This example shows how to interact with your contract (with native meta transaction support) using Biconomy
+// This example shows how to interact with your contract using Biconomy via contract wallet approach
 try {
     const provider = new Web3.providers.HttpProvider(config.WEB3_PROVIDER_URL);
     const biconomy = new Biconomy(provider, {dappId: config.biconomy.dappId, apiKey: config.biconomy.apiKey, debug: true});
