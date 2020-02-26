@@ -7,10 +7,11 @@ We have already registered this project on the <a target="_blank" href="https://
 the <b>dappId</b> and <b>apiKey</b>.<br/>
 Project is on <b>Matic Testnet 2 (Network ID: 8995) </b>
 <br/>
-
 So we will be doing two blockchain transactions here
-1. Rate a book (Native Meta Transaction)
-2. Add book to Favorite List (Meta Transaction via Contract Wallet)
+<ol>
+  <li>Rate a book (Native Meta Transaction)</li>
+  <li>Add book to Favorite List (Meta Transaction via Contract Wallet)</li>
+</ol>
 
 <h2>Mexa using Contract Wallet Approach</h2>
 In this approach, we will first do user login on Biconomy using Mexa and then we can start doing transactions without paying the gas fees.
@@ -37,4 +38,4 @@ In this approach, there is no need to login, we can start doing transactions dir
 </ol>
 
 <br/>
-<h5>Feel free to change the user public and private keys in config.js file</h5>
+<h4>Feel free to change the user public and private keys in config.js file</h4>
