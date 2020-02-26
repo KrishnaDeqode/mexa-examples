@@ -4,4 +4,4 @@ This repository contains different example codes showing how Mexa can be used in
 
 Mexa can be used in your javascript based frontend as well as backend project.
 
-Browse through diffent project codes to see the example code.
+Browse through different projects code to see the example code.
